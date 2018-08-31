@@ -1,0 +1,10 @@
+.project-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 8vh;
+    .card-container {
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+    }
+}

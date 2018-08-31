@@ -1,0 +1,92 @@
+.home-page {
+    @extend %flexbox;
+    margin-top: 10vw;
+    div {
+        @extend %flexbox;
+        flex-direction: column;
+        p.name {
+            font-size: 115px;
+        }
+        p.bio {
+            font-size: 45px;
+            color: #eece1a;
+        }
+        span {
+            /* BUTTONS */
+            @extend %flexbox;
+            justify-content: space-between;
+            width: 100%;
+            margin: 5vw;
+        }
+    }
+}
+
+@include mobS {
+    .home-page>div {
+        p.name {
+            font-size: 45px;
+        }
+        p.bio {
+            font-size: 20px;
+        }
+        span {
+            flex-flow: column wrap;
+            button {
+                margin: 2vw;
+            }
+        }
+    }
+}
+
+@include mobM {
+    .home-page>div {
+        p.name {
+            font-size: 55px;
+        }
+        p.bio {
+            font-size: 25px;
+        }
+        span {
+            flex-flow: column wrap;
+            button {
+                margin: 2vw;
+            }
+        }
+    }
+}
+
+@include mobL {
+    .home-page>div {
+        p.name {
+            font-size: 65px;
+        }
+        p.bio {
+            font-size: 30px;
+        }
+        span {
+            flex-flow: column wrap;
+            button {
+                margin: 2vw;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .home-page>div {
+        p.name {
+            font-size: 100px;
+        }
+        p.bio {
+            font-size: 40px;
+        }
+        span {
+            flex-flow: row nowrap;
+            width: 100%;
+            margin: 15px;
+        }
+    }
+    footer {
+        position: absolute;
+    }
+}

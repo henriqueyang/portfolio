@@ -1,0 +1,30 @@
+.navbar {
+    @extend %background;
+}
+
+#nav-title {
+    font-family: Eater;
+    color: gray;
+    &:hover {
+        color: #DCDCDC;
+    }
+    &:focus {
+        color: #fff;
+    }
+}
+
+#nav-item {
+    font-size: 20px;
+    &:hover {
+        color: #DCDCDC;
+    }
+}
+
+.nav-link.active {
+    color: #fff;
+}
+
+#nav-button {
+    border: 1px solid #fff;
+    outline-color: unset;
+}

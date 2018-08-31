@@ -1,0 +1,29 @@
+@mixin mobS {
+    @media screen and (max-width: 374px) {
+        @content;
+    }
+}
+
+@mixin mobM {
+    @media screen and (min-width: 375px) and (max-width: 424px) {
+        @content;
+    }
+}
+
+@mixin mobL {
+    @media screen and (min-width: 425px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}

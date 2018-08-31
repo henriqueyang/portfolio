@@ -1,0 +1,68 @@
+.knowledge-page {
+    @extend %container-size;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 3vh;
+    padding-left: 1vw;
+    >div {
+        display: flex;
+        flex-flow: column wrap;
+        width: 23%;
+        height: 100%;
+        justify-content: space-between;
+        >header {
+            @extend %flexbox;
+            justify-content: unset;
+            height: 20%;
+            font-size: 28px;
+            color: #eece1a;
+        }
+        >div {
+            margin-top: 2vh;
+            display: flex;
+            flex-flow: row;
+            height: 80%;
+            width: 100%;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .knowledge-page>div {
+        width: 100%;
+        >header {
+            justify-content: unset;
+        }
+        >div {
+            justify-content: unset;
+        }
+    }
+}
+
+@media screen and (min-width: 579px) and (max-width: 1023px) {
+    .knowledge-page>div {
+        min-width: 33.3%;
+        margin-top: 1vh;
+        header {
+            font-size: 25px;
+        }
+        div {
+            font-size: 18px;
+        }
+    }
+}
+
+// @media screen and (min-width: 517px) and (max-width: 1157px) {
+//     .knowledge-page>div {
+//         width: 33.3%;
+//         justify-content: space-evenly;
+//         >header {
+//             justify-content: unset;
+//             font-size: 27px;
+//         }
+//         >div {
+//             justify-content: unset;
+//         }
+//     }
+// }
