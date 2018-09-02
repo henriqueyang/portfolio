@@ -8,7 +8,7 @@
         font-size: 60px;
         color: #eece1a;
     }
-    >div {
+    div {
         display: flex;
         flex-flow: row;
         .contact-container {
@@ -19,7 +19,7 @@
                 flex-flow: column;
                 margin-top: 10vh;
                 p {
-                    font-size: 40px;
+                    font-size: 39.5px;
                 }
                 a {
                     @extend %icon-decoration;

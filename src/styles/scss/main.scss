@@ -1,5 +1,6 @@
 @import './utils/placeholders';
 @import './utils/media_queries';
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +11,14 @@
 
 body {
     @extend %background;
-    width: 100%;
-    height: 100%;
+    @extend %full-size;
 }
 
 @import './layout/navbar';
 @import './layout/button';
 @import './layout/footer';
 @import './layout/card';
+
 @import './pages/home';
 @import './pages/about';
 @import './pages/knowledge';

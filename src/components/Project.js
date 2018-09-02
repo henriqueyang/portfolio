@@ -10,7 +10,7 @@ const Project = () => {
                 title="ReactJS - Portfólio"
                 text="Meu portfólio, usando ReactJS, Bootstrap e Sass."
                 images="https://imgur.com/a/zCt7R2P"
-                github="https://github.com/henriqueyang/Reactjs-Portfolio"
+                github="https://github.com/henriqueyang/portfolio"
             />
             <Card
                 thumbnail="mean-logo.png"

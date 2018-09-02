@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 import './styles/css/main.css';
 
@@ -17,11 +17,12 @@ ReactDOM.render(
         <div>
             <NavBar />
             <Switch>
-                <Route exact path="/" component={Home} />
+                <Route exact path="/portfolio/" component={Home} />
                 <Route path="/sobre" component={About} />
                 <Route path="/conhecimento" component={Knowledge} />
                 <Route path="/projetos" component={Project} />
                 <Route path="/contatos" component={Contact} />
+                <Redirect from="**" to="/portfolio/" />
             </Switch>
             <Footer />
         </div>

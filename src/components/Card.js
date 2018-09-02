@@ -13,20 +13,20 @@ const Card = (props) => {
                 <ul>
                     <li>
                         <a
-                            href={props.images}
+                            href={props.github}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="fas fa-image"
+                            className="fab fa-github"
                         >
                             {" "}
                         </a>
                     </li>
                     <li>
                         <a
-                            href={props.github}
+                            href={props.images}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="fab fa-github"
+                            className="fas fa-image"
                         >
                             {" "}
                         </a>

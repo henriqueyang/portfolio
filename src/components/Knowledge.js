@@ -23,8 +23,6 @@ const Knowledge = () => {
             <p>JavaScript</p>
             <p>C#</p>
             <p>PHP</p>
-            <p>Java</p>
-            <p>Python</p>
           </span>
         </div>
       </div>
@@ -73,6 +71,7 @@ const Knowledge = () => {
             <p>Sass</p>
             <p>Firebase</p>
             <p>Ionic</p>
+            <p>WordPress</p>
           </span>
         </div>
       </div>

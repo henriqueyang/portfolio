@@ -38,6 +38,7 @@ const Contact = () => {
           <form
             action="https://formspree.io/henriqueyang17@gmail.com"
             method="POST"
+            target="_blank"
           >
             <input
               type="email"
@@ -58,7 +59,7 @@ const Contact = () => {
               required
             />
             <button className="btn-blue" type="submit">
-              ENVIAR MENSANGEM{" "}
+              ENVIAR MENSANGEM
             </button>
           </form>
         </span>
