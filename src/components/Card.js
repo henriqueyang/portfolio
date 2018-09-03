@@ -26,7 +26,7 @@ const Card = (props) => {
                             href={props.images}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="fas fa-image"
+                            className="fas fa-images"
                         >
                             {" "}
                         </a>

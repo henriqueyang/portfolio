@@ -2,13 +2,13 @@
     @extend %container-size;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 3vh;
     padding-left: 1vw;
     >div {
         display: flex;
         flex-flow: column wrap;
         width: 23%;
         height: 100%;
+        margin-top: 4vh;
         justify-content: space-between;
         >header {
             @extend %flexbox;

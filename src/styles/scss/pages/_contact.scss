@@ -24,6 +24,10 @@
                 a {
                     @extend %icon-decoration;
                     font-size: 80px;
+
+                    &:hover {
+                        @extend %swing-animation;
+                    }
                 }
             }
             .media {

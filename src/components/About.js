@@ -68,7 +68,6 @@ const About = () => {
             </p>
           </span>
         </div>
-
       </div>
     </div>
   );
