@@ -24,7 +24,6 @@
                 a {
                     @extend %icon-decoration;
                     font-size: 80px;
-
                     &:hover {
                         @extend %swing-animation;
                     }
@@ -65,71 +64,31 @@
 }
 
 @include mobS {
-    .contact-page>div {
-        flex-direction: column;
-        .contact-container {
-            width: 100%;
-            .contacts {
-                margin-top: .5vh;
-                p {
-                    font-size: 22px;
-                }
-                a {
-                    font-size: 40px;
-                }
-            }
-            .media {
-                margin-top: 3vh;
-            }
-        }
-    }
-}
-
-@include mobM {
-    .contact-page>div {
-        flex-direction: column;
-        .contact-container {
-            width: 100%;
-            .contacts {
-                margin-top: 0;
-                p {
-                    font-size: 28px;
-                }
-                a {
-                    font-size: 50px;
-                }
-            }
-            .media {
-                margin-top: 1vh;
-                width: 50%;
-            }
-        }
-    }
-}
-
-@include mobL {
     .contact-page {
-        margin-top: 5vh;
         p {
-            font-size: 80px;
+            margin-top: 3vh;
         }
         div {
             flex-direction: column;
             .contact-container {
                 width: 100%;
                 .contacts {
-                    margin-top: 0;
+                    margin-top: .5vh;
                     p {
-                        font-size: 32.5px;
+                        font-size: 22px;
                     }
                     a {
-                        font-size: 60px;
+                        font-size: 40px;
                     }
                 }
+                .media {
+                    margin: 5vh;
+                }
                 form {
-                    input {
-                        margin-top: 5vh;
-                        height: 12vh;
+                    input,
+                    textarea {
+                        font-size: 15pt;
+                        height: 15vh;
                     }
                     textarea {
                         height: 40vh;
@@ -139,6 +98,78 @@
         }
     }
 }
+
+@include mobM {
+    .contact-page {
+        p {
+            margin-top: 3vh;
+        }
+        div {
+            flex-direction: column;
+            .contact-container {
+                width: 100%;
+                .contacts {
+                    margin-top: .5vh;
+                    p {
+                        font-size: 25px;
+                    }
+                    a {
+                        font-size: 40px;
+                    }
+                }
+                .media {
+                    margin: 5vh;
+                }
+                form {
+                    input,
+                    textarea {
+                        font-size: 15pt;
+                        height: 15vh;
+                    }
+                    textarea {
+                        height: 40vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include mobL {
+    .contact-page {
+        margin-top: 8vh;
+        p {
+            font-size: 80px;
+        }
+        div {
+            flex-direction: column;
+            .contact-container {
+                width: 100%;
+                .contacts {
+                    margin: 5vh 0;
+                    p {
+                        font-size: 32.5px;
+                    }
+                    a {
+                        font-size: 60px;
+                    }
+                }
+                form {
+                    input,
+                    textarea {
+                        margin-top: 5vh;
+                        height: 14vh;
+                        font-size: 16pt;
+                    }
+                    textarea {
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @include tablet {
     .contact-page {
         p {
