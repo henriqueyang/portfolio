@@ -1,14 +1,15 @@
-Portfolio link: https://henriqueyang.github.io/portfolio/
+# **My Portfolio**
 
-Website builded with ReactJs, Boostrap and Sass.
+## **Website builded with ReactJs, Boostrap and Sass**
+
+- Portfolio link: https://henriqueyang.github.io/portfolio/
 
 ## Dependencies
 
-> yarn
+- Yarn
+- Sass
 
-> sass
-
-## Start the project
+## Installation
 
 > yarn
 
