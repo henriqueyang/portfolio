@@ -1,6 +1,6 @@
-# **My Portfolio** (temporary)
+# **My Portfolio** _(temporary)_
 
-## **Website builded with ReactJs, Boostrap and Sass**
+## **Website builded with ReactJs, Sass and Bootstrap (via CDN)**
 
 - **Portfolio link:** https://henriqueyang.github.io/portfolio/
 
