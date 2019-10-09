@@ -9,7 +9,7 @@ const Knowledge = () => {
         <div>
           <span>
             <p>Português - Nativo</p>
-            <p>Inglês - Intermediario</p>
+            <p>Inglês - Instrumental</p>
           </span>
         </div>
       </div>
@@ -21,8 +21,9 @@ const Knowledge = () => {
             <p>HTML</p>
             <p>CSS</p>
             <p>JavaScript</p>
-            <p>C#</p>
             <p>PHP</p>
+            <p>Java</p>
+            <p>C#</p>
           </span>
         </div>
       </div>
@@ -34,7 +35,6 @@ const Knowledge = () => {
             <p>Bootstrap</p>
             <p>Angular</p>
             <p>Express</p>
-            <p>ASP.NET Core</p>
           </span>
         </div>
       </div>
@@ -46,7 +46,6 @@ const Knowledge = () => {
             <p>ReactJS</p>
             <p>React Native</p>
             <p>Redux</p>
-            <p>RxJS</p>
           </span>
         </div>
       </div>
@@ -57,8 +56,10 @@ const Knowledge = () => {
           <span>
             <p>Modelagem de Dados</p>
             <p>MySQL</p>
-            <p>PDO</p>
+            <p>PostgreeSQL</p>
             <p>MongoDB - Mongoose</p>
+            <p>Sequelize</p>
+            <p>PDO</p>
           </span>
         </div>
       </div>
@@ -69,7 +70,7 @@ const Knowledge = () => {
           <span>
             <p>NodeJS</p>
             <p>Sass</p>
-            <p>Firebase</p>
+            <p>Docker</p>
             <p>Ionic</p>
           </span>
         </div>
@@ -81,6 +82,7 @@ const Knowledge = () => {
           <span>
             <p>Git</p>
             <p>MVC</p>
+            <p>Scrum</p>
             <p>Programação Orientada a Objetos</p>
           </span>
         </div>

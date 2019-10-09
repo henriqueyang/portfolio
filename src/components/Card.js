@@ -4,7 +4,7 @@ const Card = (props) => {
         <div className="card-container">
             <div className="card-box">
                 <div className="card-img">
-                    <img src={require("../img/" + props.thumbnail)} alt="Project" className="card-img-top" />
+                    <img src={require("../images/" + props.thumbnail)} alt="Project" className="card-img-top" />
                 </div>
                 <h4>
                     {props.title}

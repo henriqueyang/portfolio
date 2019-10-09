@@ -1,10 +1,17 @@
 import React from 'react';
 
-import Card from './Card';
+import Card from '../components/Card';
 
 const Project = () => {
     return (
         <div className="project-page">
+            <Card 
+                thumbnail="mern-logo.png"
+                title="MERN Stack - AirCnC"
+                text="Projeto criado com WebPage (ReactJS) e Mobile(ReactNative com Expo) consumindo uma API Rest (NodeJS)."
+                images=""
+                github="https://github.com/henriqueyang/omnistack"
+            />
             <Card 
                 thumbnail="react-logo.png"
                 title="ReactJS - Portfólio"

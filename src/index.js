@@ -5,12 +5,13 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import './styles/css/main.css';
 
 import NavBar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Knowledge from './components/Knowledge';
-import Project from './components/Project';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+
+import Home from './screens/Home';
+import About from './screens/About';
+import Knowledge from './screens/Knowledge';
+import Project from './screens/Project';
+import Contact from './screens/Contact';
 
 ReactDOM.render(
     <Router>
