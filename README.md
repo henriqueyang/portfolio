@@ -2,17 +2,19 @@
 
 ## **Website builded with ReactJs, Boostrap and Sass**
 
-- Portfolio link: https://henriqueyang.github.io/portfolio/
+- **Portfolio link:** https://henriqueyang.github.io/portfolio/
 
 ## Dependencies
 
-- Yarn
-- Sass
+- [Yarn](https://yarnpkg.com/lang/en/)
+- [Sass](https://sass-lang.com/)
 
 ## Installation
 
-> yarn
+```sh
+yarn
 
-> yarn sass:build
+yarn sass:build
 
-> yarn start
+yarn start
+```
