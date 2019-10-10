@@ -35,6 +35,7 @@ const Knowledge = () => {
             <p>Bootstrap</p>
             <p>Angular</p>
             <p>Express</p>
+            <p>Ionic</p>
           </span>
         </div>
       </div>
@@ -71,7 +72,7 @@ const Knowledge = () => {
             <p>NodeJS</p>
             <p>Sass</p>
             <p>Docker</p>
-            <p>Ionic</p>
+            <p>Git</p>
           </span>
         </div>
       </div>
@@ -80,7 +81,6 @@ const Knowledge = () => {
         <header>Outros Conhecimentos</header>
         <div>
           <span>
-            <p>Git</p>
             <p>MVC</p>
             <p>Scrum</p>
             <p>Programação Orientada a Objetos</p>

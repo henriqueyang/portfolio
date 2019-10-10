@@ -36,8 +36,8 @@ const About = () => {
           <header>Escolaridade</header>
           <span>
             <p>
-              Cursando quarto semestre de Análise e Desenvolvimento de Sistemas
-              no período matutino do Centro Universitário UNIBTA.
+              Cursando o quarto semestre de Análise e Desenvolvimento de Sistemas,
+              durante o período matutino, no Centro Universitário UNIBTA.
             </p>
             <p>
               Em 2017, concluí dois semestres de Ciência da Computação na UNIP,
