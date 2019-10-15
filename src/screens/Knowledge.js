@@ -9,7 +9,7 @@ const Knowledge = () => {
         <div>
           <span>
             <p>Português - Nativo</p>
-            <p>Inglês - Instrumental</p>
+            <p>Inglês - Básico</p>
           </span>
         </div>
       </div>
@@ -23,7 +23,6 @@ const Knowledge = () => {
             <p>JavaScript</p>
             <p>PHP</p>
             <p>Java</p>
-            <p>C#</p>
           </span>
         </div>
       </div>
@@ -47,6 +46,7 @@ const Knowledge = () => {
             <p>ReactJS</p>
             <p>React Native</p>
             <p>Redux</p>
+            <p>Vue.js</p>
           </span>
         </div>
       </div>
