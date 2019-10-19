@@ -26,8 +26,10 @@ const About = () => {
           <header>Sobre mim</header>
           <span>
             <p>
-              Estudante, e autodidata em programação e inglês. Embora me interesse por outras áreas de TI,
-              meu foco hoje é a programação, especialmente com o ecossistema JavaScript.     
+              Universitário, autodidata em programação e inglês, e ferrenho católico.
+              Com grande gosto pelo desenvolvimento web e mobile com JavaScript, 
+              principalmente com as tecnologias envolvidas com NodeJS e React, 
+              é o que tem me feito dedicar grande parte do meu dia-a-dia estudando.   
             </p>
           </span>
         </div>
@@ -44,7 +46,7 @@ const About = () => {
               até que tranquei a matrícula.
             </p>
             <p>
-              Em 2015, concluí o Ensino fundamental na E.E. Manuel Bandeira.
+              Em 2015, concluí o Ensino fundamental.
             </p>
           </span>
         </div>
@@ -53,7 +55,7 @@ const About = () => {
           <header>Experiência Profissional</header>
           <span>
             <p>
-              Estágio em desenvolvimento de software com a stack full JavaScript. 
+              Estágio em desenvolvimento de software com a stack full JavaScript.
               Onde pude começar a criar um aplicativo em Ionic que foi em recriado em ReactNative.
               Foram 2 meses de testes, de 08/19 até 10/19, com uma equipe de 4 pessoas numa startup.
             </p>
