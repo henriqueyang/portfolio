@@ -1,11 +1,12 @@
 {
-  "main.css": "static/css/main.a45e2ad8.css",
-  "main.css.map": "static/css/main.a45e2ad8.css.map",
-  "main.js": "static/js/main.570d1c88.js",
-  "main.js.map": "static/js/main.570d1c88.js.map",
+  "main.css": "static/css/main.f1fac1e3.css",
+  "main.css.map": "static/css/main.f1fac1e3.css.map",
+  "main.js": "static/js/main.e28e054c.js",
+  "main.js.map": "static/js/main.e28e054c.js.map",
   "static/media/eu.png": "static/media/eu.f958b6db.png",
   "static/media/mean-logo.png": "static/media/mean-logo.60efe521.png",
   "static/media/mern-logo.png": "static/media/mern-logo.073ea8b8.png",
   "static/media/php-mysql-logo.png": "static/media/php-mysql-logo.7bb2500a.png",
-  "static/media/react-logo.png": "static/media/react-logo.47ce6e77.png"
+  "static/media/react-logo.png": "static/media/react-logo.47ce6e77.png",
+  "static/media/tdd.png": "static/media/tdd.79dfc3a5.png"
 }
