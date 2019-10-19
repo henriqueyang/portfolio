@@ -21,7 +21,7 @@ const Card = (props) => {
                             {" "}
                         </a>
                     </li>
-                    <li>
+                    {(props.images ? <li>
                         <a
                             href={props.images}
                             target="_blank"
@@ -30,7 +30,8 @@ const Card = (props) => {
                         >
                             {" "}
                         </a>
-                    </li>
+                    </li> : <React.Fragment /> )}
+
                 </ul>
             </div>
         </div>

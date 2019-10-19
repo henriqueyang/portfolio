@@ -46,7 +46,6 @@ const Knowledge = () => {
             <p>ReactJS</p>
             <p>React Native</p>
             <p>Redux</p>
-            <p>Vue.js</p>
           </span>
         </div>
       </div>
@@ -72,7 +71,8 @@ const Knowledge = () => {
             <p>NodeJS</p>
             <p>Sass</p>
             <p>Docker</p>
-            <p>Git</p>
+            <p>TypeScript</p>
+            <p>Git e GitHub</p>
           </span>
         </div>
       </div>

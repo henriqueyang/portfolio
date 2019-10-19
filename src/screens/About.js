@@ -26,8 +26,8 @@ const About = () => {
           <header>Sobre mim</header>
           <span>
             <p>
-              Estudante autodidata de programação e inglês. Embora me interesse outras áreas de TI,
-              meu foco é a programação, especialmente com a stack (front e back-end) de JavaScript.     
+              Estudante, e autodidata em programação e inglês. Embora me interesse por outras áreas de TI,
+              meu foco hoje é a programação, especialmente com o ecossistema JavaScript.     
             </p>
           </span>
         </div>

@@ -9,7 +9,7 @@ const NavBar = () => {
 
                 <div className="container">
 
-                    <NavLink to="/portfolio/" id="nav-title" className="navbar-brand mb-0 h1">MEU PORTFÓLIO</NavLink>
+                    <NavLink to="/portfolio/" id="nav-title" className="navbar-brand mb-0">HENRIQUE</NavLink>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" id="nav-button" data-target="#navbarSite">
                         <span className="navbar-toggler-icon"></span>

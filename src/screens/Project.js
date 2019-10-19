@@ -5,14 +5,19 @@ import Card from '../components/Card';
 const Project = () => {
     return (
         <div className="project-page">
-            <Card 
+            <Card
+                thumbnail="tdd.png"
+                title="TDD com Node.js"
+                text="API RESTful testada desde o princípio com Jest, usando Postgree Database e Knex.js."
+                github="https://github.com/henriqueyang/seubarriga"
+            />
+            <Card
                 thumbnail="mern-logo.png"
                 title="MERN Stack - AirCnC"
                 text="Projeto criado com WebPage (ReactJS) e Mobile(ReactNative com Expo) consumindo uma API Rest (NodeJS)."
-                images=""
                 github="https://github.com/henriqueyang/omnistack"
             />
-            <Card 
+            <Card
                 thumbnail="react-logo.png"
                 title="ReactJS - Portfólio"
                 text="Meu portfólio, usando ReactJS, Bootstrap e Sass."
