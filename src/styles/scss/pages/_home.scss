@@ -1,11 +1,12 @@
 .home-page {
     @extend %flexbox;
-    margin-top: 10vw;
+    margin-top: 5vw;
     div {
         @extend %flexbox;
         flex-direction: column;
         p.name {
             font-size: 115px;
+            font-family: 'Dancing Script', cursive;
         }
         p.bio {
             font-size: 45px;
