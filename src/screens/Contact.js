@@ -43,12 +43,14 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              autoComplete="off"
               placeholder="Informe seu email"
               required
             />
             <input
               type="text"
               name="assunto"
+              autoComplete="off"
               placeholder="Informe o assunto"
               required
             />

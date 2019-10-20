@@ -8,7 +8,7 @@ const Project = () => {
             <Card
                 thumbnail="tdd.png"
                 title="TDD com Node.js"
-                text="API RESTful testada desde o princípio com Jest, usando Postgree Database e Knex.js."
+                text="API RESTful testada desde o princípio com Jest, usando Knex.js e Postgree conteinerizado por Docker ."
                 github="https://github.com/henriqueyang/seubarriga"
             />
             <Card

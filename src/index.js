@@ -18,9 +18,9 @@ ReactDOM.render(
             <NavBar />
             <Switch>
                 <Route exact path="/portfolio/" component={Home} />
-                <Route path="/sobre" component={About} />
-                <Route path="/conhecimento" component={Knowledge} />
-                <Route path="/contatos" component={Contact} />
+                <Route path="/portfolio/sobre" component={About} />
+                <Route path="/portfolio/conhecimento" component={Knowledge} />
+                <Route path="/portfolio/contatos" component={Contact} />
                 <Redirect from="**" to="/portfolio/" />
             </Switch>
             <Footer />
