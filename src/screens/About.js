@@ -26,7 +26,7 @@ const About = () => {
           <header>Sobre mim</header>
           <span>
             <p>
-              Universitário, autodidata em programação e inglês, e ferrenho católico.
+              Universitário, autodidata em programação e inglês, e, graças a Deus, católico.
               Com grande gosto pelo desenvolvimento web e mobile com JavaScript, 
               principalmente com as tecnologias envolvidas com NodeJS e React, 
               é o que tem me feito dedicar grande parte do meu dia-a-dia estudando.   
