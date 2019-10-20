@@ -18,13 +18,13 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSite">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <NavLink to="/portfolio/sobre" id="nav-item" className="nav-link">Sobre</NavLink>
+                                <NavLink to="/sobre" id="nav-item" className="nav-link">Sobre</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/portfolio/conhecimento" id="nav-item" className="nav-link">Conhecimento</NavLink>
+                                <NavLink to="/conhecimento" id="nav-item" className="nav-link">Conhecimento</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/portfolio/contatos" id="nav-item" className="nav-link">Contatos</NavLink>
+                                <NavLink to="/contatos" id="nav-item" className="nav-link">Contatos</NavLink>
                             </li>
                         </ul>
                     </div>

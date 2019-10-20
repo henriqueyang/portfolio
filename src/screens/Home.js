@@ -10,9 +10,9 @@ const Home = () => {
                 <p className="bio">Desenvolvedor Web & Mobile</p>
 
                 <span>
-                    <Button name="SOBRE MIM" link="portfolio/sobre" />
-                    <Button name="PROJETOS" link="portfolio/conhecimento" />
-                    <Button name="CONTATOS" link="portfolio/contatos" />
+                    <Button name="SOBRE MIM" link="sobre" />
+                    <Button name="PROJETOS" link="conhecimento" />
+                    <Button name="CONTATOS" link="contatos" />
                 </span>
             </div>
         </div>
