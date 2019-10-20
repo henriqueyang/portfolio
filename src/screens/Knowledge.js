@@ -6,9 +6,15 @@ const Project = () => {
     return (
         <div className="project-page">
             <Card
+                thumbnail="web-development.png"
+                title="Curso Web Development" 
+                text="Exercícios do curso avançado de desenvolvimento Web."
+                github="https://github.com/henriqueyang/exs-advanced-web-development"
+            />
+            <Card
                 thumbnail="tdd.png"
                 title="TDD com Node.js"
-                text="API RESTful testada desde o princípio com Jest, usando Knex.js e Postgree conteinerizado por Docker ."
+                text="API RESTful testada desde o princípio com Jest, usando Knex.js e Postgree conteinerizado por Docker."
                 github="https://github.com/henriqueyang/seubarriga"
             />
             <Card
