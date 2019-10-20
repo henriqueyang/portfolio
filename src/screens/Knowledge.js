@@ -1,95 +1,46 @@
-import React from "react";
+import React from 'react';
 
-const Knowledge = () => {
-  return (
-    <div className="knowledge-page">
+import Card from '../components/Card';
 
-      <div>
-        <header>Idiomas</header>
-        <div>
-          <span>
-            <p>Português - Nativo</p>
-            <p>Inglês - Básico</p>
-          </span>
+const Project = () => {
+    return (
+        <div className="project-page">
+            <Card
+                thumbnail="tdd.png"
+                title="TDD com Node.js"
+                text="API RESTful testada desde o princípio com Jest, usando Postgree Database e Knex.js."
+                github="https://github.com/henriqueyang/seubarriga"
+            />
+            <Card
+                thumbnail="mern-logo.png"
+                title="MERN Stack - AirCnC"
+                text="Projeto criado com WebPage (ReactJS) e Mobile(ReactNative com Expo) consumindo uma API Rest (NodeJS)."
+                github="https://github.com/henriqueyang/omnistack"
+            />
+            <Card
+                thumbnail="react-logo.png"
+                title="ReactJS - Portfólio"
+                text="Meu portfólio, usando ReactJS, Bootstrap e Sass."
+                images="https://imgur.com/a/zCt7R2P"
+                github="https://github.com/henriqueyang/portfolio"
+            />
+            <Card
+                thumbnail="mean-logo.png"
+                title="MEAN Stack - CRUD"
+                text="Aplicação básica usando a stack MEAN (MongoDB, Express, Angular e NodeJS)."
+                images="https://imgur.com/a/cmtPHAI"
+                github="https://github.com/henriqueyang/MEAN-CRUD"
+            />
+
+            <Card
+                thumbnail="php-mysql-logo.png"
+                title="PHP - CRUD"
+                text="API usando PDO, seguindo padrão singleton, para conexão ao MySQL. Front side feito com Angular."
+                images="https://imgur.com/a/Lt4uMqI"
+                github="https://github.com/henriqueyang/PHP-CRUD"
+            />
         </div>
-      </div>
+    );
+}
 
-      <div>
-        <header>Linguagens</header>
-        <div>
-          <span>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>PHP</p>
-            <p>Java</p>
-          </span>
-        </div>
-      </div>
-
-      <div>
-        <header>Frameworks</header>
-        <div>
-          <span>
-            <p>Bootstrap</p>
-            <p>Angular</p>
-            <p>Express</p>
-            <p>Ionic</p>
-          </span>
-        </div>
-      </div>
-
-      <div>
-        <header>Libraries</header>
-        <div>
-          <span>
-            <p>ReactJS</p>
-            <p>React Native</p>
-            <p>Redux</p>
-          </span>
-        </div>
-      </div>
-
-      <div>
-        <header>Banco de Dados</header>
-        <div>
-          <span>
-            <p>Modelagem de Dados</p>
-            <p>MySQL</p>
-            <p>PostgreeSQL</p>
-            <p>MongoDB - Mongoose</p>
-            <p>Sequelize</p>
-            <p>PDO</p>
-          </span>
-        </div>
-      </div>
-
-      <div>
-        <header>Outros Software</header>
-        <div>
-          <span>
-            <p>NodeJS</p>
-            <p>Sass</p>
-            <p>Docker</p>
-            <p>TypeScript</p>
-            <p>Git e GitHub</p>
-          </span>
-        </div>
-      </div>
-
-      <div>
-        <header>Outros Conhecimentos</header>
-        <div>
-          <span>
-            <p>MVC</p>
-            <p>Scrum</p>
-            <p>Programação Orientada a Objetos</p>
-          </span>
-        </div>
-      </div>
-
-    </div>
-  );
-};
-
-export default Knowledge;
+export default Project;

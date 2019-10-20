@@ -11,7 +11,6 @@ const Home = () => {
 
                 <span>
                     <Button name="SOBRE MIM" link="sobre" />
-                    <Button name="CONHECIMENTO" link="conhecimento" />
                     <Button name="PROJETOS" link="projetos" />
                     <Button name="CONTATOS" link="contatos" />
                 </span>
