@@ -14,7 +14,7 @@ import Contact from './screens/Contact';
 
 ReactDOM.render(
     <Router>
-        <div>
+        <>
             <NavBar />
             <Switch>
                 <Route exact path="/portfolio/" component={Home} />
@@ -24,5 +24,5 @@ ReactDOM.render(
                 <Redirect from="**" to="/portfolio/" />
             </Switch>
             <Footer />
-        </div>
+        </>
     </Router>, document.getElementById('root'));

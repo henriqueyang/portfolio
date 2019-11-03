@@ -2,9 +2,15 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-const Project = () => {
+const Knowledge = () => {
     return (
-        <div className="project-page">
+        <div className="knowledge-page">
+            <Card
+                thumbnail="react-logo.png"
+                title="ReactJS - Crown Clothing"
+                text="E-commerce usando ReactJS, Firebase e Redux."
+                github="https://github.com/henriqueyang/crown-clothing"
+            />
             <Card
                 thumbnail="web-development.png"
                 title="Curso Web Development" 
@@ -49,4 +55,4 @@ const Project = () => {
     );
 }
 
-export default Project;
+export default Knowledge;

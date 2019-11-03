@@ -11,7 +11,7 @@ const Contact = () => {
               <i className="fab fa-whatsapp"> (11) 96864-1335</i>
             </p>
             <p>
-              <i className="far fa-envelope-open"> henriqueyang17@gmail.com</i>
+              <i className="far fa-envelope-open"> henriquelima.jsdev@hotmail.com</i>
             </p>
             <span className="media">
               <a
