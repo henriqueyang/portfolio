@@ -20,13 +20,17 @@ const Contact = () => (
               target="_blank"
               rel="noopener noreferrer"
               className="fab fa-linkedin-in"
-            />
+            >
+              {' '}
+            </a>
             <a
               href="https://github.com/henriqueyang"
               target="_blank"
               rel="noopener noreferrer"
               className="fab fa-github"
-            />
+            >
+              {' '}
+            </a>
           </span>
         </span>
       </span>
